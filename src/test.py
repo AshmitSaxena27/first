@@ -18,6 +18,7 @@ def load_csv(file_path: str) -> pd.DataFrame:
     """
     df = pd.read_csv(file_path)
     print(f"Loaded {len(df)} rows from {file_path}")
+    print("dfghjk")
     return df
 
 
